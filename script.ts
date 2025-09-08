@@ -1,4 +1,6 @@
+
 greet('Junus');
-async function greet(name) {
+
+async function greet(name: string) {
     return `Hello!` + name;
 }
